@@ -225,6 +225,60 @@ public class R {
 		   System.out.println(i); 
 	   }
 	   
+	   int q1 = 1;
+	   while (q1 <= 5) {
+		   System.out.println(q1); //1 // 2 // 3 // 4 // 5
+		   q1 =  q1 + 1; //1 // 2 // 3 // 4 // 5
+//		   q1 ++;
+//		   q1 += 1;
+	   }
+		
+	   
+	   // print hello 5 times
+	   
+	   int q2 = 1;
+	   while(q2 <= 5) {
+		   System.out.println("hello");
+		   q2++;
+	   }
+	   
+	   // print 5 to 1
+	   int q3= 5;
+	   while(q3 >= 1) {
+		   System.out.println(q3);
+		   q3 --;
+	   }
+	   // print table of 2
+	   int q4 = 2 ;
+	   while(q4 <= 20) {
+		   System.out.println(q4);
+		   q4 = q4 + 2;
+	   }
+	   
+	   int q41 = 2 ;
+	   while(q41 <= 20) {
+		   if(q41 == 6) {
+			   break;
+		   }
+		   System.out.println(q41); // 2 // 4
+		   q41 = q41 + 2; // 4 // 6
+	   }
+	   
+	  
+	   
+	   int q5 = 1;
+	   while(q5 <= 5) {
+		   if(q5 == 2) {
+			   q5 ++; // 3
+			   continue;
+		   }
+		   System.out.println(q5); //1 // 3 // 4 // 5
+		   q5 = q5 + 1; // 2 // 4 // 5 // // 6
+	   }
+	   
+	   
+	   
+	   
 	   
 	   
 	  
