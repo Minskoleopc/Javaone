@@ -67,11 +67,6 @@ public class day9 {
 		System.out.println(poorva.age);
 		System.out.println(poorva.adharCard);
 		
-		
-		
-		
-		
-		
 
 	}
 
