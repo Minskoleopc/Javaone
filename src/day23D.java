@@ -20,7 +20,6 @@ enum Fruits {
 
 
 public class day23D {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Fruits [] aa = Fruits.values();
