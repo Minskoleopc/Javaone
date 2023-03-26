@@ -17,6 +17,8 @@ public class hashSet {
 		names.add("satish");
 		names.add("poorva");
 		names.add("sarika");
+		
+		names.iterator();
 				
 		System.out.println(names);
 		names.remove("poorva");

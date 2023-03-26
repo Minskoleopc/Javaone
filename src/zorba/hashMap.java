@@ -68,6 +68,9 @@ public class hashMap {
 		roles.put(3, "support");
 		roles.put(4, "manager");
 		
+		
+	
+				
 		// print key as well as values
 		for(int k :roles.keySet()) {
 			System.out.println(k+roles.get(k));
